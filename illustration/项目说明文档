@@ -1,0 +1,13 @@
+------- illustration ：文档说明
+
+------- public ：前台界面资源
+
+------- src
+1.router：路由文件
+2.store: vuex
+3.utils: 工具，自己写的方法
+4.api: 接口管理文档
+5.library: 手动封装的UI组件和JS组件
+6.views: 一级页面
+7.common: 公共区域
+8.components: 组件
