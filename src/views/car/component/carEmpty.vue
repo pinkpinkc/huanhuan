@@ -1,7 +1,7 @@
 <template>
     <div class="carEmpty">
         <div class="box">
-            <i class="iconfont">&#xe605;</i>
+            <i class="iconfont">&#xe612;</i>
             <p>购物车还是空的</p>
             <a href="jacascript:;">去逛逛</a>
         </div>

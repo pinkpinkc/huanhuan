@@ -7,7 +7,7 @@
           <h2>{{item.title}}</h2>
           <a href="javascript:;">
             更多
-            <i class="iconfont">&#xe625;</i>
+            <i class="iconfont">&#xe66e;</i>
           </a>
         </div>
         <div class="recover_m">
@@ -316,6 +316,7 @@ export default {
     .recover_t {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       h2 {
         font-size: 18px;
         font-weight: 900;
@@ -323,6 +324,9 @@ export default {
       a {
         color: #5e5b5b;
         font-size: 14px;
+        i{
+          font-size: 12px;
+        }
       }
     }
     .recover_m {

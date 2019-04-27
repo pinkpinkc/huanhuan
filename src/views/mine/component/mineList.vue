@@ -7,7 +7,7 @@
                 </i>
                 <span>{{item.txt}}</span>
             </div>
-            <i class="iconfont myList_r">&#xe625;</i>
+            <i class="iconfont myList_r">&#xe66e;</i>
         </div>
     </div>
 </template>

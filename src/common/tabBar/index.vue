@@ -17,22 +17,22 @@ export default {
       tabBar : [
         {
           title : "首页",
-          icon : "&#xe612;",
+          icon : "&#xe505;",
           path : "/home"
         },
         {
           title : "分类",
-          icon : "&#xe7f9;",
-          path : "/more"
+          icon : "&#xe50a;",
+          path : "/classify"
         },
         {
           title : "回收车",
-          icon : "&#xe605;",
+          icon : "&#xe612;",
           path : "/car"
         },
         {
           title : "我的",
-          icon : "&#xe636;",
+          icon : "&#xe509;",
           path : "/mine"
         }
       ]
@@ -51,6 +51,7 @@ export default {
     position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 25;
     ul{
       height: 0.5rem;
       display: flex;

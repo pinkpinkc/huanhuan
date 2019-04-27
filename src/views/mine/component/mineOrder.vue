@@ -2,7 +2,7 @@
     <div class="mineOrder">
         <p>我的订单</p>
         <a href="javascript:;">
-            全部订单<i class="iconfont">&#xe625;</i>
+            全部订单<i class="iconfont">&#xe66e;</i>
         </a>
     </div>
 </template>
@@ -26,6 +26,8 @@ export default {
         color: #534f4f;
     }
     a{
+        display: flex;
+        align-items: center;
         font-size: 16px;
         color: #696969;
         i{

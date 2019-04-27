@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './home'
-import More from './more'
+import Classify from './classify'
 import Car from './car'
 import Mine from './mine'
 
@@ -17,7 +17,7 @@ export default new Router({
       redirect : '/home'
     },
     Home,
-    More,
+    Classify,
     Car,
     Mine,
     {

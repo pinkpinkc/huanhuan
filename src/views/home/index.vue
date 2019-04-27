@@ -1,11 +1,13 @@
 <template>
-  <div class="home">
+  <div class="home" ref="aaa">
     <HomeHead/>
     <HomeBanner/>
     <HomeMenu/>
     <HomeHigh/>
     <HomeRecover/>
     <HomeFoot/>
+    <BackTop/>
+    <!-- <button @click="handleTo">回到顶部</button> -->
   </div>
 </template>
 
@@ -16,6 +18,7 @@ import HomeMenu from "./component/homeMenu";
 import HomeHigh from "./component/homeHigh";
 import HomeRecover from "./component/homeRecover";
 import HomeFoot from "./component/homeFoot";
+import BackTop from "./component/backTop";
 
 export default {
   name: "home",
@@ -25,23 +28,27 @@ export default {
     HomeMenu,
     HomeHigh,
     HomeRecover,
-    HomeFoot
-  }
+    HomeFoot,
+    BackTop
+  },
+  // methods: {
+  //   handleTo(){
+  //       window.addEventListener("scroll", function(){
+  //         console.log(document.documentElement.scrollTop)
+  //       });
+  //   }
+  // }
 };
 </script>
 
 <style lang="scss">
-
-// 全部内容
-// #main {
-  // padding: 0.75rem 0 0.5rem 0;
-  // padding-top: 0.75rem;
-  // height: 100%;
-  // display: flex;
-  // flex-direction: column;
-  // background: #f5f5f5;
-  // overflow: auto;
-  // banner
-//}
-
+// 让横向滚动条不显示
+::-webkit-scrollbar{
+  display: none
+}
+// button{
+//   position: fixed;
+//   right: 20px;
+//   bottom: 130px
+// }
 </style>
