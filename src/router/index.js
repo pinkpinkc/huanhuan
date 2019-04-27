@@ -4,13 +4,14 @@ import Home from './home'
 import Classify from './classify'
 import Car from './car'
 import Mine from './mine'
-
+import Shop from './shop'
+import Search from './search'
 
 
 Vue.use(Router)
 
 export default new Router({
-  meta: "history",
+  meta: "hash",
   routes: [
     {
       path: '/',
@@ -20,6 +21,8 @@ export default new Router({
     Classify,
     Car,
     Mine,
+    Shop,
+    Search,
     {
       path : '**',
       redirect : '/home'

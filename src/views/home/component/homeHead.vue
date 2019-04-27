@@ -6,10 +6,10 @@
         <span>北京市</span>
         <img src="images/downsanjiao.jpg" alt>
       </a>
-      <a href="javascript:;" class="search">
+      <router-link tag="a" class="search" to="/search">
         <i class="iconfont">&#xe67e;</i>
         搜索品牌/型号
-      </a>
+      </router-link>
       <a href="javascript:;" class="tel">
         <i class="iconfont">&#xe627;</i>
       </a>

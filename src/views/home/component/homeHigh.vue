@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="high_m">
-      <dl v-for="(item,index) in high" :key="index">
+      <router-link tag="dl" v-for="(item,index) in high" :key="index" to="/shop">
         <dt>
           <img :src="item.img" alt>
         </dt>
@@ -33,7 +33,7 @@
             <span>{{item.price}}</span>
           </p>
         </dd>
-      </dl>
+      </router-link>
     </div>
     <div class="high_b">
       <img src="images/high.png" alt>

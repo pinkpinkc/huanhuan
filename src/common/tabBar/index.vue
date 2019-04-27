@@ -1,5 +1,5 @@
 <template>
-  <div class="tabBar">
+  <div class="tabBar" v-if="this.$route.meta.flag">
     <ul>
       <router-link v-for="(item,index) in tabBar" :key="index" tag="li" :to="item.path">
         <i class="iconfont" v-html="item.icon"></i>
